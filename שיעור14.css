@@ -1,0 +1,26 @@
+body{background-color: rgb(221, 207, 218);}
+#div{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    padding: 10px;
+}
+#display{
+grid-column: 1 / 4;
+font-size: 25px;
+}
+button{
+border-width: 0;
+font-size: 22px;
+}
+.orange{
+    background-color: rgb(250, 181, 54);
+}
